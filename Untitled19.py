@@ -9,6 +9,6 @@ st.markdown(""" # h1 tag
 :moon:
 :knife:
 ** bold **
-__italics__
+__ italics __
 """,True)
 
