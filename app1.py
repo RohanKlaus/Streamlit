@@ -15,6 +15,7 @@ st.line_chart(data)
 st.area_chart(data)
 st.bar_chart(data)
 
+st.video('https://www.youtube.com/watch?v=jq0lKFb-P8k&list=PLuU3eVwK0I9PT48ZBYAHdKPFazhXg76h5&index=4')
 
 #plt.scatter(data['a'],data['b'])
 #st.pyplot
