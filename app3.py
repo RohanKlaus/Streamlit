@@ -13,5 +13,5 @@ mob.text_input("Mobile Number")
 
 username,pw,pw2 = st.columns(3)
 username.text_input("Enter your username")
-pw.text_input("Enter your password")
-pw2.text_input("Re-enter your password")
+pw.text_input("Enter your password", type="password")
+pw2.text_input("Re-enter your password",type="password")
