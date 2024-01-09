@@ -22,5 +22,5 @@ st.date_input("Enter today's date")
 st.time_input("Enter the time")
 
 #Add a checkbox
-if st.checkbox("You accept the T&C", value=True):
+if st.checkbox("You accept the T&C"):
   st.write("Thankyou")
