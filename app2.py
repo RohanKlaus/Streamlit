@@ -29,3 +29,5 @@ st.radio("Colors",['r','g','b'])
 #st.radio("Colors",['r','g','b'],index=1)
 
 st.selectbox("Colors",['r','g','b'])
+
+st.multiselect("Colors",['r','g','b'])
