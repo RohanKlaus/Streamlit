@@ -16,5 +16,5 @@ st.area_chart(data)
 st.bar_chart(data)
 
 
-plt.scatter(data['a'],data['b'])
-st.pyplot
+#plt.scatter(data['a'],data['b'])
+#st.pyplot
