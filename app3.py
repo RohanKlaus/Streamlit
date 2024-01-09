@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 
-df = pd.read_csv('Churn.csv')
+st.title("Registration Form")
 
-st.dataframe(df)
+first, last =st.beta_columns(2)
+first.text_input("First Name")
+last.text_input("Last Name")
