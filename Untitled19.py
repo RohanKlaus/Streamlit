@@ -10,5 +10,5 @@ st.markdown(""" # h1 tag
 :knife:
 **bold**
 __italics__
-""")
+""",True)
 
