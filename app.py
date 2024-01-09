@@ -28,9 +28,9 @@ def ret_time():
   return time.time()
 
 if st.checkbox("1"):
-  st.write(ret_time)
+  st.write(ret_time())
   
 if st.checkbox("2"):
-  st.write(ret_time)
+  st.write(ret_time())
 
      
