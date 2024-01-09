@@ -24,3 +24,5 @@ st.time_input("Enter the time")
 #Add a checkbox
 if st.checkbox("You accept the T&C", value=False):
   st.write("Thankyou")
+
+st.radio("Colors",['r','g','b'])
