@@ -10,6 +10,6 @@ st.markdown(""" # h1 tag
 :moon:<br>
 :knife:
 ** bold **
-__ italics __
+_ italics _
 """,True)
 
