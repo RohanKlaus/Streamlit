@@ -4,3 +4,5 @@ import pandas as pd
 data = pd.read_csv("Churn.csv")
 
 st.title("Telecommunication Churn")
+
+st.sidebar.radio("Navigation",["Visualisation","Predictor"])
