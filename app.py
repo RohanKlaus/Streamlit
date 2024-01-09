@@ -14,4 +14,4 @@ dict = {
 data = pd.read_csv('Churn.csv')
 print(data)
 
-st.dataframe(a)
+st.dataframe(n)
