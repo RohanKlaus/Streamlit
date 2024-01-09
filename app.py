@@ -16,3 +16,4 @@ print(data)
 
 st.dataframe(data)
 st.dataframe(data, width=500, height=500)
+st.table(dict)
