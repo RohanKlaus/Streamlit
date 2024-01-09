@@ -8,7 +8,7 @@ st.title("Telecommunication Churn")
 nav = st.sidebar.radio("Navigation",["Visualisation","Predictor"])
 
 if nav == "Visualisation":
-  st.image("https://github.com/RohanKlaus/project/blob/main/customer-churn.jpg",width=500)
+  st.image("https://github.com/RohanKlaus/project/blob/main/customer-churn.jpg",width=800)
 
 if nav == "Predictor":
   st.write("Predict")
