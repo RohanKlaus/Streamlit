@@ -20,3 +20,7 @@ st.date_input("Enter today's date")
 
 #Time Input
 st.time_input("Enter the time")
+
+#Add a checkbox
+if st.checkbox("You accept the T&C", value=False):
+  st.write("Thankyou")
