@@ -9,3 +9,7 @@ data = pd.DataFrame(
 )
 
 st.write(data)
+
+st.line_chart(data)
+st.area_chart(data)
+st.bar_chart(data)
