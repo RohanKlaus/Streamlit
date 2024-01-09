@@ -26,3 +26,6 @@ if st.checkbox("You accept the T&C", value=False):
   st.write("Thankyou")
 
 st.radio("Colors",['r','g','b'])
+#st.radio("Colors",['r','g','b'],index=1)
+
+st.selectbox("Colors",['r','g','b'])
