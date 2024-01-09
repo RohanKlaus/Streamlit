@@ -9,7 +9,7 @@ st.markdown(""" # h1 tag
 ### h3 tag
 :moon:<br>
 :knife:
-** bold **
-_ italics _
+**bol**
+_italics_
 """,True)
 
