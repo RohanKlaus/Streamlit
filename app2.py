@@ -31,3 +31,5 @@ st.radio("Colors",['r','g','b'])
 st.selectbox("Colors",['r','g','b'])
 
 st.multiselect("Colors",['r','g','b'])
+
+st.slider("age", min_value=18, max_value=60, value=18)
