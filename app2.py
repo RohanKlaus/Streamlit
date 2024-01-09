@@ -16,5 +16,7 @@ address = st.text_area("Enter your address")
 st.write(address)
 
 #Date Input
-date = st.date_input("Enter today's date")
-st.wrtie(date)
+st.date_input("Enter today's date")
+
+#Time Input
+st.time_input("Enter the time")
