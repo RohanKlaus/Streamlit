@@ -10,3 +10,8 @@ last.text_input("Last Name")
 email,mob = st.columns([3,1])
 email.text_input("Enter your Email")
 mob.text_input("Mobile Number")
+
+username,pw,pw2 = st.columns(3)
+username.text_input("Enter your username")
+pw.text_input("Enter your password")
+pw2.text_input("Re-enter your password")
