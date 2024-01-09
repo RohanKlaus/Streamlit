@@ -11,5 +11,10 @@ if st.button('Subscribe'):
 name = st.text_input("Name")
 st.write(name)
 
+#Text Area
 address = st.text_area("Enter your address")
 st.write(address)
+
+#Date Input
+date = st.date_input("Enter today's date")
+st.wrtie(date)
