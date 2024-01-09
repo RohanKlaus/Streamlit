@@ -35,3 +35,5 @@ st.multiselect("Colors",['r','g','b'])
 st.slider("age", min_value=18, max_value=60, value=18, step=2)
 
 st.number_input("numbers", min_value=18.0, max_value=60.0, value=30.0, step=2.0)
+
+st.file_uploader("Upload a file")
