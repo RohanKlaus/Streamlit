@@ -32,4 +32,4 @@ st.selectbox("Colors",['r','g','b'])
 
 st.multiselect("Colors",['r','g','b'])
 
-st.slider("age", min_value=18, max_value=60, value=18)
+st.slider("age", min_value=18, max_value=60, value=18, step=2)
