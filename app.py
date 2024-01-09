@@ -15,3 +15,4 @@ data = pd.read_csv('Churn.csv')
 print(data)
 
 st.dataframe(data)
+st.dataframe(data, width=500, height=500)
